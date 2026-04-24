@@ -35,103 +35,187 @@
                     Regístrate
                 </button>
             </div>
-
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="img"></div>
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Inicia Sesión</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="alert alert-danger" role="alert">
-                                Los campos marcados con (*) son obligatorios. Por favor, completa la información requerida para continuar.
-                                </div>
-                                <form>
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Correo Electronico : *</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                                        <div>¿Haz olvidado tú correo electronico?</div>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Contraseña : *</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1" required>
-                                        <div>¿Haz olvidado tú contraseña?</div>
-                                    </div>
-                                    <button type="submit" class="btn-primarys">Siguiente</button>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <div>
-                                    ¿Aún no formas parte de Élan Rosé?<br>
-                                    <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalRegistro" class="bot-mofo">
-                                        Crea tu cuenta
-                                    </a>
-                                     y descubre una experiencia llena de elegancia y exclusividad.
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="modalRegistroLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="img"></div>
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalRegistroLabel">Regístrate</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="alert alert-danger" role="alert">
-                                    Los campos marcados con (*) son obligatorios. Por favor, completa la información requerida para continuar.
-                                </div>
-
-                                <form>
-                                    <div class="mb-3">
-                                        <label for="registroNombre" class="form-label">Nombre completo : *</label>
-                                        <input type="text" class="form-control" id="registroNombre" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="registroUsuario" class="form-label">¿Cómo quieres que te llamemos? : *</label>
-                                        <input type="text" class="form-control" id="registroUsuario" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="registroEmail" class="form-label">Correo Electrónico : *</label>
-                                        <input type="email" class="form-control" id="re5gistroEmail" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="registroPassword" class="form-label">Contraseña : *</label>
-                                        <input type="password" class="form-control" id="registroPassword" required>
-                                    </div>
-
-                                    <button type="submit" class="btn-primarys">
-                                        Siguiente
-                                    </button>
-                                </form>
-                            </div>
-
-                            <div class="modal-footer">
-                                <div>
-                                    ¿Ya formas parte de Élan Rosé?<br>
-                                    <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal" class="bot-mofo">
-                                        Inicia sesión
-                                    </a>
-                                     y continúa disfrutando de una experiencia exclusiva.
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            
         </nav>
     </header>
+
+    <section class="ventanas-emergentes">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="img"></div>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Inicia Sesión</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-danger" role="alert">
+                        Los campos marcados con (*) son obligatorios. Por favor, completa la información requerida para continuar.
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Correo Electronico : *</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                <a href="recu" class="recu-input">¿Haz olvidado tú correo electronico?</a>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Contraseña : *</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" required>
+                                <a href="recu" class="recu-input">¿Olvidaste tú contraseña?</a>
+                            </div>
+                            <button type="submit" class="btn-primarys">Siguiente</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            ¿Aún no formas parte de Élan Rosé?<br>
+                            <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalRegistro" class="bot-mofo">
+                                Crea tu cuenta
+                            </a>
+                                y descubre una experiencia llena de elegancia y exclusividad.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="modalRegistroLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="img"></div>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalRegistroLabel">Regístrate</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-danger" role="alert">
+                            Los campos marcados con (*) son obligatorios. Por favor, completa la información requerida para continuar.
+                        </div>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="registroNombre" class="form-label">Nombre completo : *</label>
+                                <input type="text" class="form-control" id="registroNombre" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="registroUsuario" class="form-label">¿Cómo quieres que te llamemos? : *</label>
+                                <input type="text" class="form-control" id="registroUsuario" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="registroEmail" class="form-label">Correo Electrónico : *</label>
+                                <input type="email" class="form-control" id="re5gistroEmail" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="registroPassword" class="form-label">Contraseña : *</label>
+                                <input type="password" class="form-control" id="registroPassword" required>
+                            </div>
+
+                            <button type="submit" class="btn-primarys">
+                                Siguiente
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <div>
+                            ¿Ya formas parte de Élan Rosé?<br>
+                            <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal" class="bot-mofo">
+                                Inicia sesión
+                            </a>
+                                y continúa disfrutando de una experiencia exclusiva.
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="conte-caruu">
+        <div class="contenido">
+            <div class="tit">
+                <h2>Donde las flores se convierten en emociones</h2>
+            </div>
+            <div class="text">
+                Cada detalle cuenta una historia, cada flor guarda una emoción. Encuentra el regalo perfecto para sorprender, enamorar y crear recuerdos que duren para siempre.
+            </div>
+        </div>
+
+        <div class="img-carru">
+            <div class="des1"></div>
+
+            <div class="carrusel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/car1.jpg" class="d-block w-100" alt="Flores Élan Rosé">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colección Exclusiva</h5>
+                                <p>Un símbolo de amor eterno y sincero.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/car2.jpg" class="d-block w-100" alt="Flores Élan Rosé">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colección Exclusiva</h5>
+                                <p>Expresa sentimientos que perduran para siempre.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/car3.jpg" class="d-block w-100" alt="Flores Élan Rosé">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colección Exclusiva</h5>
+                                <p>Creado para convertir emociones en recuerdos.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/car4.jpg" class="d-block w-100" alt="Flores Élan Rosé">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colección Exclusiva</h5>
+                                <p>Diseñado para celebrar momentos inolvidables.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/car5.jpg" class="d-block w-100" alt="Flores Élan Rosé">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colección Exclusiva</h5>
+                                <p>Un detalle que transmite elegancia y ternura.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/car6.jpg" class="d-block w-100" alt="Flores Élan Rosé">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Colección Exclusiva</h5>
+                                <p>Representa admiración, gratitud y cariño.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="des2"></div>
+        </div>
+    </section>
+
+    <section class="pag4">
+        <div class="titulo">Servicios</div>
+        <div class="tarjetasdipo1">
+            <div class="tardipo">
+                <div class="imgdipo"></div>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 </body>
