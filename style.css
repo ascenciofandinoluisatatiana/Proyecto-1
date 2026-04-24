@@ -1,0 +1,187 @@
+body {
+    min-height: 100vh;
+
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("img/fondo.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        margin: 10px;
+        padding: 20px;
+        background-color: pink;
+        border-radius: 30px;
+        width: auto;
+        height: auto;
+    }
+        .texlog{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+            .logo{
+                background-image: url(img/logo2.png);
+                background-size: contain;
+                border-radius: 50%;
+                width: 70px;
+                height: 70px;
+            }
+            .textlogo{
+                color: white;
+                font-family: "DM Serif Display", serif;
+                font-size: 20px;
+                font-weight: 400;
+                font-style: italic;
+            }
+        .enlaces{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+            .boten{
+                text-decoration: none;
+                color: white;
+                font-family: "DM Serif Display", serif;
+                font-weight: 400;
+                font-style: italic;
+
+                transition: transform .10s ease;
+            }
+                .boten:hover{
+                    padding: 10px;
+                    background-color: rgb(255, 107, 156);
+                    border-radius: 15px;
+
+                    transform: translateY(-6px);
+                    box-shadow: 0 0 20px white;
+                }
+
+                .btn-primary{
+                    padding: 10px;
+                    background-color: white;
+                    border-radius: 15px;
+                    border: none;
+
+                    font-family: "DM Serif Display", serif;
+                    font-weight: 400;
+                    font-style: italic;
+                    color: rgb(255, 107, 156);
+
+                    transition: transform .10s ease;
+                }
+                    .btn-primary:hover{
+                        background-color: rgb(255, 107, 156);
+                        box-shadow: 0 0 10px white;
+                        color: white;
+                        transform: translateY(-6px);
+                    }
+                .btn-outline-primary{
+                    padding: 10px;
+                    background-color: rgb(255, 107, 156);
+                    border-radius: 15px;
+                    border: none;
+
+                    font-family: "DM Serif Display", serif;
+                    font-weight: 400;
+                    font-style: italic;
+                    color: white;
+
+                    transition: transform .10s ease;
+                }
+                    .btn-outline-primary:hover{
+                        color: white;
+                        background-color: transparent;
+                        box-shadow: 0 0 10px white;
+                        transform: translateY(-6px);
+                    }
+                
+        #exampleModal .modal-dialog,
+        #modalRegistro .modal-dialog {
+            max-width: 1000px; 
+            width: 90%;
+        }
+        .modal-dialog{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 30px;
+            background-color: pink;
+            border-radius: 30px;
+            box-shadow: 0 0 40px white;
+            width: 90%;
+        }
+            .img{
+
+                background-image: url(img/poster.png);
+                background-size: cover;
+                background-position: center;
+                width: 600px;
+                height: auto;
+                box-shadow: 0 0 10px black;
+                border-radius: 20px;
+            }
+                .modal-header,
+                .modal-footer {
+                    background: rgb(255, 107, 156) !important;
+                    color: black;
+                }
+                .modal-footer {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .modal-footer div {
+                    width: 100%;
+                }
+
+                .modal-title {
+                    font-family: "DM Serif Display", serif;
+                    font-weight: 400;
+                    font-style: italic;
+                    color: white;
+                }
+                    .btn-primarys{
+                        display: block;
+                        margin-right: 10px;
+                        margin-left: auto;
+                        padding: 10px;
+                        background-color: pink;
+                        border-radius: 15px;
+                        border: none;
+                        color: black;
+                        font-family: "DM Serif Display", serif;
+                        font-weight: 400;
+                        font-style: italic;
+
+                        transition: .10s ease;
+                    }
+                        .btn-primarys:hover{
+                            background-color: white;
+                            box-shadow: 0 0 20px rgb(255, 107, 156);
+                            color: rgb(255, 107, 156);
+
+                            transform: translateY(-6px);
+                        }
+                    .bot-mofo{
+                        text-decoration: none;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        font-weight: bold;
+                        color: white;
+                    }
+                        .bot-mofo:hover{
+                            color: rgb(255, 255, 138);
+                        }
